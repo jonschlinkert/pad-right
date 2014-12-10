@@ -2,7 +2,6 @@
 
 > Right pad a string with zeros or a specified string. Fastest implementation.
 
-## Install
 ## Install with [npm](npmjs.org)
 
 ```bash
