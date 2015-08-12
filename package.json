@@ -1,38 +1,61 @@
 {
   "name": "pad-right",
   "description": "Right pad a string with zeros or a specified string. Fastest implementation.",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/jonschlinkert/pad-right",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/pad-right.git"
-  },
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "jonschlinkert/pad-right",
   "bugs": {
     "url": "https://github.com/jonschlinkert/pad-right/issues"
   },
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/jonschlinkert/pad-right/blob/master/LICENSE-MIT"
-    }
-  ],
+  "license": "MIT",
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "mocha"
   },
   "dependencies": {
-    "repeat-string": "^0.2.2"
+    "repeat-string": "^1.5.2"
   },
   "devDependencies": {
     "mocha": "*",
     "should": "*"
   },
-  "keywords": []
+  "keywords": [
+    "align",
+    "alignment",
+    "fill",
+    "left",
+    "pad",
+    "pad-left",
+    "pad-right",
+    "padded",
+    "padding",
+    "right",
+    "right-pad",
+    "spaces",
+    "string",
+    "zero",
+    "zero-fill",
+    "zeros"
+  ],
+  "verb": {
+    "related": {
+      "list": [
+        "align-text",
+        "center-align",
+        "justified",
+        "pad-left",
+        "repeat-string",
+        "right-align",
+        "right-align-keys",
+        "right-align-values",
+        "right-pad-keys",
+        "right-pad-values",
+        "word-wrap"
+      ]
+    }
+  }
 }
