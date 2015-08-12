@@ -18,11 +18,14 @@ npm test
 
 ```js
 var pad = require('pad-right');
-pad('abc', 10);
-//=> 'abc0000000000'
-
-pad('abc', 10, '~');
-//=> 'abc~~~~~~~~~~'
+pad('abc', 5)
+// 'abc00'
+pad('abc', 10)
+// 'abc0000000'
+pad('abc', 10, '~')
+// 'abc~~~~~~~'
+pad('abc', 10, ' ')
+// 'abc       '
 ```
 
 ## Related
