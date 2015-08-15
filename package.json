@@ -1,7 +1,7 @@
 {
   "name": "pad-right",
   "description": "Right pad a string with zeros or a specified string. Fastest implementation.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/jonschlinkert/pad-right",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/pad-right",
@@ -10,6 +10,9 @@
   },
   "license": "MIT",
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "engines": {
     "node": ">=0.10.0"
   },
