@@ -16,5 +16,5 @@ module.exports = function padLeft(val, num, str) {
     return val + repeat(str || '0', diff);
   }
 
-  return val + padding.slice(-diff);
+  return val + padding.slice(0, diff);
 };
